@@ -43,7 +43,7 @@ namespace CurrencyConverter
                 }
                 Console.WriteLine("click \'Y\' to restart and Any other button to end the Application ");
             }
-            while (Console.ReadLine()?.ToUpper() == "Y");
+            while (Console.ReadLine()  ?.ToUpper() == "Y");
         }
     }
 }
